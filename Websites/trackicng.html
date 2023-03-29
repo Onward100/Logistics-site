@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="tracking.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tracking Page</h1>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="order-id" class="form-label">Order ID</label>
+        <input type="text" class="form-control" id="order-id" placeholder="Enter Order ID">
+      </div>
+      <div class="col-md-6">
+        <label for="order-status" class="form-label">Order Status</label>
+        <input type="text" class="form-control" id="order-status" placeholder="Enter Order Status">
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Track Order</button>
+      </div>
+    </form>
+    <div class="tracking-results" id="tracking-results">
+      <!-- Results will be displayed here -->
+    </div>
+  </div>
+  
+  
+  <script src="tracking.js"></script>
+</body>
+</html>

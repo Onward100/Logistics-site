@@ -1,0 +1,257 @@
+/* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  .text-center{
+    color: #002147;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #002147;
+  }
+  
+  .navbar-brand,
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 200px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Header Styles */
+
+  .background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1a2a6c, #b21f1f, #fdbb2d);
+    background-image: url('delivery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 4, 136, 0.5);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    top: 30%;
+  }
+  .content h1{
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .content p{
+   font-size: 23px;
+   opacity: .8;
+  }
+  
+  /* About us Styles */
+  .about-us {
+    padding: 50px 0;
+  }
+  
+  .about-us h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+   /* Custom styles for icons */
+  .goals-icon {
+    font-size: 5rem;
+    color: red;
+    display: flex;
+
+  }
+  .achievements-icon {
+    font-size: 2rem;
+    color: gold;
+    font-size: 5rem;
+  }
+  .team-icon {
+    font-size: 2rem;
+    color: green;
+    font-size: 5rem;
+  }
+
+  /* Services Styles */
+  .services-section{
+    background-color: #002147;
+    color: white;
+    border-radius: 5px;
+  }
+  .services-section h2{
+    text-align: center;
+  }
+  .service-item .fa-truck {
+    color: gold;
+    margin-bottom: 20px;
+  }
+  .service-item .fa-ship{
+    color: red;
+    margin-bottom: 20px;
+  }
+  .service-item .fa-cogs{
+    color: green;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item p {
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: .8;
+  }
+
+  /* Testimonial Styles */
+  
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  .testimony-style p{
+    opacity: .7;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+  .testimonial-item {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px navy;
+    border-radius: 10px;
+  }
+  .testimony-hover:hover{
+    transform: scale(1.02);
+  }
+  .testimony-hover{
+    transition: .4s ease;
+  }
+  
+  /* Contact Styles */
+  .contact-section{
+    background-color: #002147;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .contact {
+    padding: 50px 0;
+  }
+  
+  .contact h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .btn-submit{
+    background-color: white;
+    color: #002147;
+    transition: .2s ease;
+  }
+  .btn-submit:hover{
+    background-color: #f00;
+  }
+
+  /* Footer Styles */
+  
+  .social-icons{
+    text-align: center;
+  }
+  .social-icons a {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 24px;
+    transition: .2s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #f00;
+    text-decoration: none;
+  }
+  
+  #back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #002147;
+    animation: bounce 1s ease-in-out infinite;
+  }
+  
+  @keyframes bounce{
+    0% {
+      bottom: 20px;
+    }
+    50% {
+      bottom: 30px;
+    }
+    100% {
+      bottom: 20px;
+    }
+  }
+
+  #back-to-top-btn.show {
+    display: block;
+  }
+  
+  #back-to-top-btn i {
+    font-size: 2rem;
+  }
+  
+  
+  

@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff;
+    background-image: url('background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    margin-top: 50px;
+    color: #ffffff;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input {
+    background-color: #ffffff;
+    color: #495057;
+    border-color: #ced4da;
+  }
+  
+  form button {
+    background-color: #0d47a1;
+    border-color: #0d47a1;
+  }
+  
+  #tracking-results {
+    margin-top: 50px;
+    color: #ffffff;
+  }
+  
