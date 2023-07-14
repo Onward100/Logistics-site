@@ -69,6 +69,21 @@
    font-size: 23px;
    opacity: .8;
   }
+  .join{
+    outline: none;
+    color: white;
+    margin: auto;
+    border: none;
+    font-weight: bold;
+    background-color: #002147;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+  }
   
   /* About section styles */
   .about-img{
